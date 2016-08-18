@@ -1,0 +1,22 @@
+{
+  "name": "funcraft/masterpiece-models",
+  "description": "Masterpiece models",
+  "type": "library",
+  "keywords": ["masterpiece", "funcraft"],
+  "authors": [
+    {
+      "name": "Funcraft",
+      "email": "what4me@yandex.ru",
+      "homepage": "http://funcraft.ru",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "funcraft/masterpiece-interfaces": "0.*"
+  },
+  "autoload": {
+    "psr4": {
+      "funcraft\\masterpiece\\": ""
+    }
+  }
+}
